@@ -10,9 +10,11 @@ public class Ejercicio6_9{
   do{
   
   numero = (int)(Math.random()*101);
-  contador++;
+  if (numero%2 == 0){
+    contador++;
   
-  System.out.println(numero);
+    System.out.println(numero);
+    }
   } while (numero != 24);
   
   
